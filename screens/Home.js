@@ -234,13 +234,11 @@ const Home = ({ navigation }) => {
                       fontFamily: "Jost_400Regular",
                     }}
                   >
-                    {coin.current_price > 1
+                    {coin.current_price > 100
                       ? Number(coin.current_price.toFixed(2)).toLocaleString(
                           "en-US"
                         )
-                      : Number(coin.current_price.toFixed(3)).toLocaleString(
-                          "en-US"
-                        )}
+                      : coin.current_price.toFixed(2)}
                     $
                   </Text>
                   <AntDesign
@@ -268,7 +266,6 @@ const styles = StyleSheet.create({
     shadowOffset: {
       width: 0,
       height: 1,
-
     },
     shadowOpacity: 0.22,
     shadowRadius: 9.35,
