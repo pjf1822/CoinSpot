@@ -267,7 +267,8 @@ const styles = StyleSheet.create({
   coinItemWrapper: {
     shadowOffset: {
       width: 0,
-      height: 0,
+      height: 1,
+
     },
     shadowOpacity: 0.22,
     shadowRadius: 9.35,
