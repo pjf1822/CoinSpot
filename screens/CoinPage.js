@@ -111,7 +111,10 @@ const CoinPage = ({ route }) => {
       <Text style={styles.coinStyle}>{upperCaseMe}</Text>
       <View style={styles.infoWrapper}>
         <Text style={[styles.ourFont, { color: "white", fontSize: 37 }]}>
-          {Number(price.toFixed(2)).toLocaleString("en-US")}$
+          {price > 100
+            ? Number(price.toFixed(2)).toLocaleString("en-US")
+            : price.toFixed(2)}
+          $
         </Text>
         <View
           style={{
