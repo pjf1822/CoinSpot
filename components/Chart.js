@@ -1,13 +1,6 @@
-import { StyleSheet, Text, View, Dimensions } from "react-native";
+import { View, Dimensions } from "react-native";
 import React from "react";
-import {
-  LineChart,
-  BarChart,
-  PieChart,
-  ProgressChart,
-  ContributionGraph,
-  StackedBarChart,
-} from "react-native-chart-kit";
+import { LineChart } from "react-native-chart-kit";
 
 const Chart = ({ prices }) => {
   // Date Configuration
