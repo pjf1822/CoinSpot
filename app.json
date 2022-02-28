@@ -4,11 +4,12 @@
     "slug": "cryptotest",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo_size_invert_new.jpg",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/email-logo.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#141414"
+      
     },
     "updates": {
       "fallbackToCacheTimeout": 0
