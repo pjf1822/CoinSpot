@@ -124,7 +124,7 @@ const Home = ({ navigation }) => {
 
   const marketColor =
     marketColorNumber > 5
-      ? "rgba(0, 250, 52, 1)"
+      ? "rgba(0, 250, 52, 0.8)"
       : marketColorNumber <= 5 && marketColorNumber >= 2
       ? "rgba(0, 250, 52, 0.77)"
       : marketColorNumber < 2 && marketColorNumber >= 0
@@ -305,6 +305,6 @@ const styles = StyleSheet.create({
     width: 30,
     marginRight: 10,
   },
-  redFont: { color: "rgba(255, 45, 0, 0.8)" },
+  redFont: { color: "rgba(0, 250, 52, 0.8)" },
   greenFont: { color: "rgba(66, 254, 97, 0.8)" },
 });
